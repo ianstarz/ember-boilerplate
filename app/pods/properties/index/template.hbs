@@ -1,1 +1,7 @@
-{{outlet}}
+<h1>Properties</h1>
+
+<ul>
+  {{#each model.properties as |property|}}
+    <li>{{property.name}}</li>
+  {{/each}}
+</ul>
