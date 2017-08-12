@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'environweb',
+    podModulePrefix: 'environweb/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
